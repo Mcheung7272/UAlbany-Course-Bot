@@ -9,6 +9,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 client = discord.Client()
 bot = commands.Bot(command_prefix='!')
+bot.remove_command('help')
 
 @bot.command()
 async def look(ctx, s, n):
@@ -24,7 +25,7 @@ async def look(ctx, s, n):
             if(flag == True):
                 break
             while True:
-                embedVar = discord.Embed(color=0x00ff00)
+                embedVar = discord.Embed(title="Spring 2021", color=0x00ff00)
                 embedVar.add_field(name="Class Number", value =a[i], inline=True)
                 index+=1
                 embedVar.add_field(name="Course Info", value=b[i], inline=True)
@@ -52,6 +53,11 @@ async def look(ctx, s, n):
                     break
                 await ctx.channel.send(embed=embedVar)
 
+@bot.command()
+async def helpme(ctx):
+    embedVar = discord.Embed(color=0x00ff00)
+    embedVar.add_field(name="!look" ,value="<Subject 'CSI'> <Course Number '201'> ")
+    await ctx.channel.send(embed=embedVar)
 
 
 
