@@ -1,7 +1,11 @@
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
+import requests
 
 def lookup(subject, number):
+    response = requests.head('https://www.albany.edu/registrar/schedule-of-classes-spring.php').status_code
+    if(response != 200):
+        return "down"
     opts = Options()
     opts.headless = True
     assert opts.headless
