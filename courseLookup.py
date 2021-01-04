@@ -55,16 +55,3 @@ def allInfo(group):
     
     return list(classNum), list(courseInfo), list(meetingInfo), list(seats), list(comments)
 
-
-# print(classNum)
-# print(courseInfo)
-# print(meetingInfo)
-# print(seats)
-# print(comments)
-
-# for i in range(len(classNum)):
-#     print(classNum[i])
-#     print(courseInfo[i])
-#     print(meetingInfo[i])
-#     print(seats[i])
-#     print("---------------------------------------------------------------")
