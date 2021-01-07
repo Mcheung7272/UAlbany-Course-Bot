@@ -1,5 +1,5 @@
 # UAlbany-Course-Bot
-This bot helps students at UA look up courses at real time instead of navigating through multiple webpages.
+This bot helps students at UA look up courses in real time instead of navigating through multiple webpages.
 
 ## Usage
 This bot is coded with discord api, and can be used with the command prefix ('!')
