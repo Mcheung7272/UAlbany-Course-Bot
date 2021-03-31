@@ -11,7 +11,7 @@ This command takes in specific Course prefix and number and will return real tim
 ## !subjects
 Outputs all subjects my database has courses of stored inside as well as the prefix associated for easier look up.
 
-![example output](https://github.com/Mcheung7272/UAlbany-Course-Bot/blob/master/subjectsShow.png "Example Output")
+![example output](https://github.com/Mcheung7272/UAlbany-Course-Bot/blob/master/ImagePreviews/subjectsShow.png "Example Output")
 
 ## !whatis
 Very similar to !look, input in Course Prefix and Number. Big difference is, !look is limited to current semester and has to be in real time for accurate amount of free seats. This command has almost no lookup time and offers information about ALL courses.
