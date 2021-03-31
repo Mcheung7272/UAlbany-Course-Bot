@@ -6,7 +6,7 @@ This command takes in specific Course prefix and number and will return real tim
 ```
 !look <Course Subject> <Course Number> #returns Class Number, Course Info, Meeting Info, Seats Available as of lookup and Comments.
 ```
-![example output](https://github.com/Mcheung7272/UAlbany-Course-Bot/blob/master/ImagePreviews/subjectsShow.png "Example Output")
+![example output](https://github.com/Mcheung7272/UAlbany-Course-Bot/blob/master/ImagePreviews/exampleoutputCourse.png "Example Output")
 
 ## !subjects
 Outputs all subjects my database has courses of stored inside as well as the prefix associated for easier look up.
