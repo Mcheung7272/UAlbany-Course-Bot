@@ -20,7 +20,7 @@ Very similar to !look, thats in Course Prefix and Number. Big difference is, !lo
 ```
 ![example output](https://github.com/Mcheung7272/UAlbany-Course-Bot/blob/master/whatIsShow.png "Example Output")
 
-##!courses for
+## !courses for
 This command takes in a subject prefix and outputs ALL courses offered for that subject. For example, if you do the command for CS, all CS courses offered at UA will be displayed.
 ```
 !coursesfor <Course Prefix>
