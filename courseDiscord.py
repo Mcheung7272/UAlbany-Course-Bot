@@ -121,7 +121,10 @@ async def coursesFor(ctx, subject):
 @bot.command()
 async def helpme(ctx):
     embedVar = discord.Embed(color=0x00ff00)
-    embedVar.add_field(name="!look" ,value="<Subject 'CSI'> <Course Number '201'> ")
+    embedVar.add_field(name="!look" ,value="<Subject Prefix: 'CSI'> <Course Number: '201'> ", inline= False)
+    embedVar.add_field(name="!subjects" ,value="Displays Subject Names and Prefix", inline = False)
+    embedVar.add_field(name="!whatis" ,value="<Subject Prefix: 'CSI'> <Course Number: '201'> "+ '\n\n' + "Displays the course description. Difference between this and !look is that !look only displays whats currently offered for this semester.", inline = False)
+    embedVar.add_field(name="!coursesfor" ,value="<Subject Prefix>", inline = False)
     await ctx.channel.send(embed=embedVar)
 
 @basicLookup.error
