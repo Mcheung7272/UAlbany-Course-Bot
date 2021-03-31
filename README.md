@@ -1,5 +1,5 @@
 # UAlbany-Course-Bot
-Students can look up semester courses for real time information like free seats available. I've scraped and stored most courses offered at UA in a SQLite database so students can also search courses offered during different semesters, if they dont need the real time information.(Currently working on a handful of subjects left due to different formatting on the website!).
+Students can look up semester courses for real time information like free seats available, dates and times for the course or professor teaching it. I've scraped and stored most courses offered at UA in a SQLite database so students can also search courses offered during different semesters, if they dont need the real time information.(Currently working on a handful of subjects left due to different formatting on the website!).
 
 ## !look
 This command takes in specific Course prefix and number and will return real time information about it in regards to dates and free seats.
