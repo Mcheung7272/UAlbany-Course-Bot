@@ -1,5 +1,5 @@
 # UAlbany-Course-Bot
-This bot helps students at UA look up courses in real time instead of navigating through multiple webpages. Students can look up almost all courses offered at UA. 
+Students can look up semester courses for real time information like free seats available. They can also look up all courses offered at UA except a handful of subjects(Currently working on it!).
 
 ## !look
 This command takes in specific Course prefix and number and will return real time information about it in regards to dates and free seats.
